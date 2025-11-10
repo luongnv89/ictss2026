@@ -1,0 +1,7 @@
+# robots.txt for IEEE CloudCom 2026
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://cloudcom2026.org/sitemap.xml

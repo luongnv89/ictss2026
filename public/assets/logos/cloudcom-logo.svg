@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 80" width="250" height="80">
+  <!-- CloudCom Logo Placeholder -->
+  <defs>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00629B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0082CA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud icon -->
+  <path d="M 30 35 Q 30 25 40 25 Q 45 15 55 15 Q 65 15 70 25 Q 80 25 80 35 Q 80 45 70 45 L 40 45 Q 30 45 30 35 Z"
+        fill="url(#cloudGradient)"/>
+
+  <!-- Text -->
+  <text x="90" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00629B">
+    CloudCom
+  </text>
+  <text x="90" y="55" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    IEEE Conference
+  </text>
+</svg>

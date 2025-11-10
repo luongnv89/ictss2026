@@ -1,0 +1,257 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Custom colors for IEEE Blue theme */
+  --color-ieee-blue: #0056b3;
+  --color-ieee-blue-dark: #004085;
+
+  /* Font families */
+  --font-family-sans: Inter, system-ui, sans-serif;
+
+  /* Custom animations */
+  --animate-fade-in: fadeIn 0.5s ease-in;
+  --animate-slide-up: slideUp 0.5s ease-out;
+}
+
+@layer base {
+  :root {
+    --primary: #0056b3;
+    --primary-dark: #004085;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --light: #f8f9fa;
+    --dark: #343a40;
+  }
+
+  * {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    @apply bg-ieee-blue text-white;
+  }
+}
+
+@layer components {
+  /* Solid Background */
+  .hero-gradient {
+    background: #0056b3;
+  }
+
+  .gradient-text {
+    @apply text-ieee-blue;
+  }
+
+  /* Card Effects */
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .card-hover:hover {
+    @apply transform -translate-y-1 shadow-xl;
+  }
+
+  .card-elevated {
+    @apply shadow-lg hover:shadow-2xl transition-shadow duration-300;
+  }
+
+  /* Button Styles */
+  .btn {
+    @apply rounded-lg border border-transparent px-5 py-3 text-base font-medium cursor-pointer transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-ieee-blue text-white hover:bg-ieee-blue-dark focus:ring-2 focus:ring-ieee-blue focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 text-gray-900 hover:bg-gray-200 focus:ring-2 focus:ring-gray-400 focus:ring-offset-2;
+  }
+
+  /* Focus Styles */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-ieee-blue focus:ring-offset-2;
+  }
+
+  /* Section Containers */
+  .section-container {
+    @apply py-16 px-4;
+  }
+
+  .section-header {
+    @apply text-center mb-12;
+  }
+
+  /* Loading States */
+  .skeleton {
+    @apply animate-pulse bg-gray-200 rounded;
+  }
+
+  /* Glass Morphism */
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg border border-gray-200;
+  }
+
+  /* Prose Styling for Content Pages */
+  /* Note: @tailwindcss/typography plugin may need v4-compatible version */
+  .prose-custom {
+    @apply max-w-none text-lg text-gray-700 leading-relaxed;
+  }
+
+  .prose-custom h1,
+  .prose-custom h2,
+  .prose-custom h3,
+  .prose-custom h4,
+  .prose-custom h5,
+  .prose-custom h6 {
+    @apply text-gray-900 font-bold;
+  }
+
+  .prose-custom a {
+    @apply text-ieee-blue no-underline hover:underline;
+  }
+
+  .prose-custom strong {
+    @apply text-gray-900 font-semibold;
+  }
+
+  .prose-custom ul {
+    @apply list-disc;
+  }
+
+  .prose-custom ol {
+    @apply list-decimal;
+  }
+
+  .prose-custom code {
+    @apply text-ieee-blue bg-gray-100 px-1 rounded;
+  }
+}
+
+@layer utilities {
+  /* Animation Utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.5s ease-out;
+  }
+
+  .animate-slide-in-right {
+    animation: slideInRight 0.5s ease-out;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  /* Scroll Snap */
+  .scroll-snap-y {
+    scroll-snap-type: y mandatory;
+  }
+
+  .scroll-snap-center {
+    scroll-snap-align: center;
+  }
+
+  /* Hide Scrollbar */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Touch Target Sizes (Accessibility) */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  /* Screen Reader Only */
+  .sr-only-focusable:not(:focus):not(:focus-within) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  .dark {
+    color-scheme: dark;
+  }
+}
