@@ -7,7 +7,7 @@ export function VenuePage() {
     <>
       <SEO
         title="Venue & Travel"
-        description="IEEE CloudCom 2026 will be held at Sorbonne Université in Paris, France. Find information about the venue, accommodation, and travel."
+        description="ICTSS 2026 will be held at Sorbonne Université in Paris, France. Find information about the venue, accommodation, and travel."
         keywords={['venue', 'Paris', 'travel', 'accommodation', 'Sorbonne Université']}
       />
 
@@ -50,7 +50,7 @@ export function VenuePage() {
                       <p className="text-gray-700">
                         Located in the historic Latin Quarter, Sorbonne Université is one of
                         Europe's leading research universities, providing a prestigious setting for
-                        IEEE CloudCom 2026.
+                        ICTSS 2026.
                       </p>
                     </div>
                   </div>
@@ -248,10 +248,10 @@ export function VenuePage() {
                   Registered participants requiring an invitation letter for visa purposes can
                   request one by contacting{' '}
                   <a
-                    href="mailto:registration@cloudcom2026.org"
+                    href="mailto:registration@ictss2026.org"
                     className="text-ieee-blue hover:underline"
                   >
-                    registration@cloudcom2026.org
+                    registration@ictss2026.org
                   </a>
                 </p>
               </div>

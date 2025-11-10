@@ -6,7 +6,7 @@ export function PrivacyPolicyPage() {
     <>
       <SEO
         title="Privacy Policy"
-        description="IEEE CloudCom 2026 Privacy Policy - How we collect, use, and protect your personal data in compliance with GDPR."
+        description="ICTSS 2026 Privacy Policy - How we collect, use, and protect your personal data in compliance with GDPR."
         noIndex
       />
 
@@ -32,9 +32,9 @@ export function PrivacyPolicyPage() {
                 1. Introduction
               </Heading>
               <p className="text-gray-700 leading-relaxed">
-                IEEE CloudCom 2026 ("we", "our", or "us") is committed to protecting your privacy
-                and personal data. This Privacy Policy explains how we collect, use, disclose, and
-                safeguard your information when you visit our website cloudcom2026.org, register for
+                ICTSS 2026 ("we", "our", or "us") is committed to protecting your privacy and
+                personal data. This Privacy Policy explains how we collect, use, disclose, and
+                safeguard your information when you visit our website ictss2026.org, register for
                 the conference, or submit papers.
               </p>
               <p className="text-gray-700 leading-relaxed mt-4">
@@ -52,7 +52,7 @@ export function PrivacyPolicyPage() {
                 The data controller responsible for your personal data is:
               </p>
               <div className="bg-gray-50 p-6 rounded-lg mt-4">
-                <p className="text-gray-900 font-semibold">IEEE CloudCom 2026 Conference</p>
+                <p className="text-gray-900 font-semibold">ICTSS 2026 Conference</p>
                 <p className="text-gray-700">
                   Sorbonne Université
                   <br />
@@ -61,8 +61,8 @@ export function PrivacyPolicyPage() {
                   75006 Paris, France
                   <br />
                   Email:{' '}
-                  <a href="mailto:privacy@cloudcom2026.org" className="text-ieee-blue">
-                    privacy@cloudcom2026.org
+                  <a href="mailto:privacy@ictss2026.org" className="text-ieee-blue">
+                    privacy@ictss2026.org
                   </a>
                 </p>
               </div>
@@ -270,11 +270,8 @@ export function PrivacyPolicyPage() {
               </ul>
               <p className="text-gray-700 leading-relaxed mt-4">
                 To exercise these rights, contact us at{' '}
-                <a
-                  href="mailto:privacy@cloudcom2026.org"
-                  className="text-ieee-blue hover:underline"
-                >
-                  privacy@cloudcom2026.org
+                <a href="mailto:privacy@ictss2026.org" className="text-ieee-blue hover:underline">
+                  privacy@ictss2026.org
                 </a>
               </p>
             </div>
@@ -362,8 +359,8 @@ export function PrivacyPolicyPage() {
                 <p className="text-gray-900 font-semibold">Data Protection Officer</p>
                 <p className="text-gray-700">
                   Email:{' '}
-                  <a href="mailto:privacy@cloudcom2026.org" className="text-ieee-blue">
-                    privacy@cloudcom2026.org
+                  <a href="mailto:privacy@ictss2026.org" className="text-ieee-blue">
+                    privacy@ictss2026.org
                   </a>
                   <br />
                   Address: Sorbonne Université, 21 Rue de l'École de Médecine, 75006 Paris, France

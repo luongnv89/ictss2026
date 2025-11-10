@@ -114,7 +114,7 @@ export function ContactPage() {
     <>
       <SEO
         title="Contact Us"
-        description="Get in touch with the IEEE CloudCom 2026 organizing committee. Contact us for questions about submissions, registration, or general inquiries."
+        description="Get in touch with the ICTSS 2026 organizing committee. Contact us for questions about submissions, registration, or general inquiries."
       />
 
       {/* Header */}
@@ -297,11 +297,8 @@ export function ContactPage() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">General Inquiries</h3>
                   <p className="text-gray-700">
-                    <a
-                      href="mailto:info@cloudcom2026.org"
-                      className="text-ieee-blue hover:underline"
-                    >
-                      info@cloudcom2026.org
+                    <a href="mailto:info@ictss2026.org" className="text-ieee-blue hover:underline">
+                      info@ictss2026.org
                     </a>
                   </p>
                 </div>
@@ -310,10 +307,10 @@ export function ContactPage() {
                   <h3 className="font-bold text-gray-900 mb-2">Paper Submissions</h3>
                   <p className="text-gray-700">
                     <a
-                      href="mailto:papers@cloudcom2026.org"
+                      href="mailto:papers@ictss2026.org"
                       className="text-ieee-blue hover:underline"
                     >
-                      papers@cloudcom2026.org
+                      papers@ictss2026.org
                     </a>
                   </p>
                 </div>
@@ -322,10 +319,10 @@ export function ContactPage() {
                   <h3 className="font-bold text-gray-900 mb-2">Registration</h3>
                   <p className="text-gray-700">
                     <a
-                      href="mailto:registration@cloudcom2026.org"
+                      href="mailto:registration@ictss2026.org"
                       className="text-ieee-blue hover:underline"
                     >
-                      registration@cloudcom2026.org
+                      registration@ictss2026.org
                     </a>
                   </p>
                 </div>
