@@ -59,10 +59,10 @@ export function HomePage() {
           </Heading>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: 'Abstract Submission', date: 'April 15, 2026' },
-              { title: 'Paper Submission', date: 'May 1, 2026' },
-              { title: 'Notification', date: 'July 15, 2026' },
-              { title: 'Camera Ready', date: 'August 15, 2026' },
+              { title: 'Paper Submission', date: 'June 16, 2026' },
+              { title: 'Notification', date: 'July 14, 2026' },
+              { title: 'Camera Ready', date: 'July 25, 2026' },
+              { title: 'Author Registration', date: 'July 31, 2026' },
             ].map((item) => (
               <div
                 key={item.title}
