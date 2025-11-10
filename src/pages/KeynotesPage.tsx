@@ -18,47 +18,47 @@ interface KeynoteSpeaker {
 export function KeynotesPage() {
   const speakers: KeynoteSpeaker[] = [
     {
-      name: 'Dr. Sarah Chen',
-      title: 'Chief Cloud Architect',
-      affiliation: 'MIT Computer Science',
-      image: 'https://ui-avatars.com/api/?name=Sarah+Chen&size=400&background=8FBC8F&color=fff',
-      topic: 'The Future of Serverless Computing',
+      name: 'Dr. Emma Thompson',
+      title: 'Director of Software Quality Research',
+      affiliation: 'ETH Zurich',
+      image: 'https://ui-avatars.com/api/?name=Emma+Thompson&size=400&background=8FBC8F&color=fff',
+      topic: 'AI-Driven Test Generation and Optimization',
       day: 'Day 1',
       time: '9:30 - 10:30',
       location: 'Main Auditorium',
       abstract:
-        'This keynote explores the evolution of serverless computing and its transformative impact on cloud architecture. We will examine emerging trends including edge serverless, stateful functions, and serverless data processing. The talk will cover real-world case studies demonstrating how organizations are leveraging serverless technologies to achieve unprecedented scalability and cost efficiency. We will also discuss the challenges that remain, including cold start optimization, vendor lock-in concerns, and the future direction of serverless platforms.',
-      bio: 'Dr. Sarah Chen is a leading researcher in distributed systems and cloud architecture with over 15 years of experience. She leads the Cloud Computing Research Group at MIT, where her work focuses on serverless computing, container orchestration, and distributed systems optimization. Before joining MIT, she spent 8 years at Google working on large-scale infrastructure projects. She holds a Ph.D. in Computer Science from Stanford University and has published over 50 papers in top-tier conferences. Dr. Chen is a recipient of the ACM SIGOPS Hall of Fame Award and serves on the technical advisory boards of several cloud computing startups.',
-      website: 'https://example.com/sarah-chen',
+        'This keynote explores how artificial intelligence is revolutionizing software testing through intelligent test generation, optimization, and maintenance. We will examine cutting-edge AI techniques including neural program analysis, reinforcement learning for test case selection, and large language models for automated test generation. The talk will cover real-world case studies demonstrating how organizations are leveraging AI to achieve superior test coverage while reducing testing costs. We will also discuss the challenges that remain, including test oracle problems, flaky tests, and the future direction of AI-powered testing platforms.',
+      bio: 'Dr. Emma Thompson is a leading researcher in automated testing and AI applications for software quality assurance with over 15 years of experience. She leads the Software Quality Research Group at ETH Zurich, where her work focuses on intelligent test generation, mutation testing, and AI-driven test optimization. Before joining ETH, she spent 8 years at Google working on large-scale testing infrastructure projects. She holds a Ph.D. in Computer Science from Stanford University and has published over 60 papers in top-tier software engineering conferences. Dr. Thompson is a recipient of the ACM SIGSOFT Distinguished Paper Award and serves on the program committees of major testing conferences.',
+      website: 'https://example.com/emma-thompson',
     },
     {
-      name: 'Prof. Michael Rodriguez',
-      title: 'Director of Cloud Research',
-      affiliation: 'Stanford University',
+      name: 'Prof. Andreas Mueller',
+      title: 'Chair of Software Engineering',
+      affiliation: 'TU Munich',
       image:
-        'https://ui-avatars.com/api/?name=Michael+Rodriguez&size=400&background=8FBC8F&color=fff',
-      topic: 'AI-Driven Cloud Optimization',
+        'https://ui-avatars.com/api/?name=Andreas+Mueller&size=400&background=8FBC8F&color=fff',
+      topic: 'Model-Based Testing for Safety-Critical Systems',
       day: 'Day 2',
       time: '9:00 - 10:00',
       location: 'Main Auditorium',
       abstract:
-        'Artificial Intelligence is revolutionizing how we manage and optimize cloud infrastructure. This keynote presents cutting-edge research on using machine learning for intelligent resource allocation, predictive auto-scaling, and cost optimization in cloud environments. We will demonstrate how AI can analyze complex workload patterns to make real-time decisions that improve performance while reducing costs. The talk includes practical examples from major cloud providers and discusses the integration of AI/ML pipelines into cloud management platforms. We will also explore the ethical considerations and potential risks of automated cloud management.',
-      bio: 'Professor Michael Rodriguez is a pioneer in applying machine learning to cloud computing challenges. As Director of the Cloud Research Lab at Stanford University, he leads a team investigating AI-driven optimization techniques for modern cloud infrastructure. His research has resulted in technologies adopted by major cloud providers including AWS, Azure, and Google Cloud. Prof. Rodriguez has authored over 100 research papers and holds 25 patents in cloud computing and machine learning. He received his Ph.D. from UC Berkeley and previously served as Chief Scientist at a leading cloud optimization startup. He is a Fellow of the IEEE and ACM.',
-      website: 'https://example.com/michael-rodriguez',
+        'Model-based testing provides rigorous foundations for verifying safety-critical systems where failures can have catastrophic consequences. This keynote presents cutting-edge research on using formal models for systematic test generation, coverage analysis, and certification of automotive, aerospace, and medical systems. We will demonstrate how model-based approaches can automatically generate comprehensive test suites that satisfy safety standards like ISO 26262 and DO-178C. The talk includes practical examples from autonomous vehicle testing and discusses the integration of model-based testing into modern development workflows. We will also explore the challenges of scaling these techniques to complex cyber-physical systems.',
+      bio: 'Professor Andreas Mueller is a pioneer in model-based testing and formal verification for safety-critical systems. As Chair of Software Engineering at TU Munich, he leads a research group investigating rigorous testing techniques for automotive and aerospace applications. His research has resulted in testing methodologies adopted by major automotive manufacturers and certification authorities. Prof. Mueller has authored over 120 research papers and holds 15 patents in model-based testing and verification. He received his Ph.D. from ETH Zurich and previously served as Chief Verification Engineer at a leading automotive systems supplier. He is a Fellow of the IEEE and serves on multiple safety standards committees.',
+      website: 'https://example.com/andreas-mueller',
     },
     {
-      name: 'Dr. Yuki Tanaka',
-      title: 'VP of Engineering',
-      affiliation: 'Google Cloud',
-      image: 'https://ui-avatars.com/api/?name=Yuki+Tanaka&size=400&background=8FBC8F&color=fff',
-      topic: 'Security in Multi-Cloud Environments',
+      name: 'Dr. Maria Santos',
+      title: 'Principal Test Architect',
+      affiliation: 'Microsoft Research',
+      image: 'https://ui-avatars.com/api/?name=Maria+Santos&size=400&background=8FBC8F&color=fff',
+      topic: 'Continuous Testing in Modern DevOps Pipelines',
       day: 'Day 3',
       time: '9:00 - 10:00',
       location: 'Main Auditorium',
       abstract:
-        'As organizations increasingly adopt multi-cloud strategies, security challenges grow in complexity. This keynote addresses the critical security considerations for managing workloads across multiple cloud providers. We will discuss zero-trust architectures, identity and access management across clouds, data encryption strategies, and compliance frameworks. The presentation includes real-world examples of security breaches and lessons learned, along with best practices for implementing robust security controls. We will also cover emerging technologies such as confidential computing, homomorphic encryption, and post-quantum cryptography in the context of cloud security.',
-      bio: "Dr. Yuki Tanaka is Vice President of Engineering at Google Cloud, where she leads the development of security and privacy features for Google's cloud platform. With a background in cryptography and distributed systems, she has been instrumental in designing security architectures for some of the world's largest cloud deployments. Before joining Google, she held senior positions at Microsoft Azure and worked as a security consultant for Fortune 500 companies. Dr. Tanaka earned her Ph.D. in Computer Science from the University of Tokyo, specializing in cryptographic protocols. She is a frequent speaker at security conferences and has contributed to multiple industry security standards.",
-      website: 'https://example.com/yuki-tanaka',
+        'As organizations increasingly adopt DevOps and continuous delivery, testing must evolve to keep pace with rapid release cycles. This keynote addresses the critical challenges of implementing effective continuous testing strategies that balance speed, quality, and cost. We will discuss intelligent test selection, parallel test execution, test impact analysis, and failure triage automation. The presentation includes real-world examples from Microsoft\'s own DevOps transformation and lessons learned from scaling testing across thousands of services. We will also cover emerging technologies such as AI-powered test maintenance, shift-left testing practices, and the future of quality gates in CI/CD pipelines.',
+      bio: "Dr. Maria Santos is Principal Test Architect at Microsoft Research, where she leads initiatives to improve testing practices and developer productivity across Microsoft's engineering organization. With a background in test automation and software quality, she has been instrumental in developing testing frameworks used by thousands of developers worldwide. Before joining Microsoft, she held senior positions at Amazon Web Services and worked as a testing consultant for Fortune 500 companies. Dr. Santos earned her Ph.D. in Computer Science from Carnegie Mellon University, specializing in automated test generation and maintenance. She is a frequent speaker at testing conferences and has contributed to multiple industry testing standards and best practices.",
+      website: 'https://example.com/maria-santos',
     },
   ]
 
@@ -66,8 +66,8 @@ export function KeynotesPage() {
     <>
       <SEO
         title="Keynote Speakers"
-        description="Distinguished keynote speakers at IEEE CloudCom 2026"
-        keywords={['keynote', 'speakers', 'cloud computing', 'IEEE CloudCom']}
+        description="Distinguished keynote speakers at ICTSS 2026"
+        keywords={['keynote', 'speakers', 'software testing', 'ICTSS', 'quality assurance']}
       />
 
       {/* Hero Section */}
@@ -77,7 +77,7 @@ export function KeynotesPage() {
             Keynote Speakers
           </Heading>
           <p className="text-center text-lg">
-            World-renowned experts sharing insights on the future of cloud computing
+            World-renowned experts sharing insights on the future of software testing and quality assurance
           </p>
         </Container>
       </section>
