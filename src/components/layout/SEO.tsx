@@ -53,10 +53,18 @@ interface SEOProps {
 }
 
 const defaultProps = {
-  title: 'IEEE CloudCom 2026',
+  title: 'ICTSS 2026',
   description:
-    'IEEE International Conference on Cloud Computing Technology and Science - October 21-23, 2026 in Paris, France',
-  keywords: ['cloud computing', 'IEEE', 'conference', 'CloudCom', 'Paris', 'technology', 'science'],
+    'International Conference on Testing Software and Systems - October 21-23, 2026 in Paris, France',
+  keywords: [
+    'software testing',
+    'ICTSS',
+    'conference',
+    'testing',
+    'Paris',
+    'quality assurance',
+    'verification',
+  ],
   ogType: 'website' as const,
   twitterCard: 'summary_large_image' as const,
 }
@@ -76,7 +84,7 @@ const defaultProps = {
  * ```tsx
  * <SEO
  *   title="Call for Papers"
- *   description="Submit your research to CloudCom 2026"
+ *   description="Submit your research to ICTSS 2026"
  *   keywords={['call for papers', 'CFP', 'research']}
  * />
  * ```
@@ -93,9 +101,9 @@ export function SEO({
   twitterCard = defaultProps.twitterCard,
   noIndex = false,
 }: SEOProps) {
-  const siteName = 'IEEE CloudCom 2026'
+  const siteName = 'ICTSS 2026'
   const fullTitle = title ? `${title} | ${siteName}` : siteName
-  const siteUrl = import.meta.env.VITE_SITE_URL || 'https://cloudcom2026.org'
+  const siteUrl = import.meta.env.VITE_SITE_URL || 'https://ictss2026.org'
   const defaultOgImage = `${siteUrl}/og-image.jpg`
   const fullCanonical = canonical || siteUrl
 
@@ -103,7 +111,7 @@ export function SEO({
   const eventStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'Event',
-    name: 'IEEE CloudCom 2026',
+    name: 'ICTSS 2026',
     description: description,
     startDate: '2026-10-21',
     endDate: '2026-10-23',
@@ -122,13 +130,13 @@ export function SEO({
     },
     organizer: {
       '@type': 'Organization',
-      name: 'IEEE Computer Society',
-      url: 'https://www.computer.org',
+      name: 'IFIP WG 1.7',
+      url: 'https://ifip.org',
     },
     offers: {
       '@type': 'Offer',
       url: `${siteUrl}/registration`,
-      price: '450',
+      price: '490',
       priceCurrency: 'EUR',
       availability: 'https://schema.org/InStock',
       validFrom: '2026-07-01',
@@ -139,13 +147,13 @@ export function SEO({
   const organizationStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'IEEE CloudCom 2026',
+    name: 'ICTSS 2026',
     url: siteUrl,
     logo: `${siteUrl}/logo.png`,
-    sameAs: ['https://twitter.com/IEEECloudCom', 'https://www.linkedin.com/company/ieee-cloudcom'],
+    sameAs: ['https://twitter.com/ictss', 'https://www.linkedin.com/company/ictss'],
     contactPoint: {
       '@type': 'ContactPoint',
-      email: 'info@cloudcom2026.org',
+      email: 'info@ictss2026.org',
       contactType: 'Customer Service',
     },
   }

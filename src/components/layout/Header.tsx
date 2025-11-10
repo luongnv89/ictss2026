@@ -31,10 +31,10 @@ export function Header() {
           {/* Logo and Title */}
           <Link to="/" className="flex items-center space-x-2 sm:space-x-3">
             <div className="flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-full bg-ieee-blue text-white font-bold text-lg sm:text-xl">
-              CC
+              IT
             </div>
             <div className="hidden xs:block sm:block">
-              <h1 className="text-base sm:text-xl font-bold text-ieee-blue">IEEE CloudCom 2026</h1>
+              <h1 className="text-base sm:text-xl font-bold text-ieee-blue">ICTSS 2026</h1>
               <p className="text-xs text-gray-600">Paris, France</p>
             </div>
           </Link>

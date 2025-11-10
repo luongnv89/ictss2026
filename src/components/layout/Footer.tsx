@@ -50,14 +50,18 @@ const footerColumns: FooterColumn[] = [
 ]
 
 const sponsors = [
-  { name: 'IEEE', url: 'https://www.ieee.org', logo: '/assets/logos/ieee-logo.svg' },
+  { name: 'IFIP WG 1.7', url: 'https://ifip.org', logo: '/assets/logos/ifip-logo.svg' },
   {
-    name: 'IEEE Computer Society',
-    url: 'https://www.computer.org',
-    logo: '/assets/logos/ieee-logo.svg',
+    name: 'Springer',
+    url: 'https://www.springer.com',
+    logo: '/assets/logos/springer-logo.svg',
   },
   { name: 'Montimage', url: 'https://www.montimage.com', logo: '/assets/logos/montimage-logo.svg' },
-  { name: 'CloudCom', url: 'https://cloudcom.org', logo: '/assets/logos/cloudcom-logo.svg' },
+  {
+    name: 'Sorbonne Université',
+    url: 'https://www.sorbonne-universite.fr',
+    logo: '/assets/logos/sorbonne-logo.svg',
+  },
 ]
 
 /**
@@ -83,15 +87,15 @@ export function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-ieee-blue text-white font-bold text-xl">
-                  CC
+                  IT
                 </div>
                 <div>
-                  <h2 className="text-lg font-bold text-gray-900">IEEE CloudCom 2026</h2>
+                  <h2 className="text-lg font-bold text-gray-900">ICTSS 2026</h2>
                   <p className="text-sm text-gray-600">Paris, France</p>
                 </div>
               </div>
               <p className="text-sm text-gray-600">
-                International Conference on Cloud Computing Technology and Science
+                International Conference on Testing Software and Systems
               </p>
               <p className="text-sm text-gray-600">October 21-23, 2026</p>
             </div>
@@ -149,11 +153,11 @@ export function Footer() {
         <div className="border-t border-gray-200 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-600">
-              © {currentYear} IEEE CloudCom 2026. All rights reserved.
+              © {currentYear} ICTSS 2026. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a
-                href="https://twitter.com/cloudcom"
+                href="https://twitter.com/ictss"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-ieee-blue transition-colors"
@@ -164,7 +168,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/company/cloudcom"
+                href="https://www.linkedin.com/company/ictss"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-ieee-blue transition-colors"
