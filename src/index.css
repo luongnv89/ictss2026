@@ -2,8 +2,8 @@
 
 @theme {
   /* Custom colors for IEEE Blue theme */
-  --color-ieee-blue: #0056b3;
-  --color-ieee-blue-dark: #004085;
+  --color-ieee-blue: #8FBC8F;
+  --color-ieee-blue-dark: #7AA87A;
 
   /* Font families */
   --font-family-sans: Inter, system-ui, sans-serif;
@@ -15,8 +15,8 @@
 
 @layer base {
   :root {
-    --primary: #0056b3;
-    --primary-dark: #004085;
+    --primary: #8FBC8F;
+    --primary-dark: #7AA87A;
     --secondary: #6c757d;
     --success: #28a745;
     --danger: #dc3545;
@@ -45,7 +45,7 @@
 @layer components {
   /* Solid Background */
   .hero-gradient {
-    background: #0056b3;
+    background: #8FBC8F;
   }
 
   .gradient-text {
