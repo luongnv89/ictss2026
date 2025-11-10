@@ -142,7 +142,7 @@ export function HomePage() {
                 title: 'Chief Cloud Architect',
                 affiliation: 'MIT Computer Science',
                 image:
-                  'https://ui-avatars.com/api/?name=Sarah+Chen&size=200&background=0056b3&color=fff',
+                  'https://ui-avatars.com/api/?name=Sarah+Chen&size=200&background=8FBC8F&color=fff',
                 topic: 'The Future of Serverless Computing',
                 bio: 'Leading researcher in distributed systems and cloud architecture with over 15 years of experience.',
               },
@@ -151,7 +151,7 @@ export function HomePage() {
                 title: 'Director of Cloud Research',
                 affiliation: 'Stanford University',
                 image:
-                  'https://ui-avatars.com/api/?name=Michael+Rodriguez&size=200&background=0056b3&color=fff',
+                  'https://ui-avatars.com/api/?name=Michael+Rodriguez&size=200&background=8FBC8F&color=fff',
                 topic: 'AI-Driven Cloud Optimization',
                 bio: 'Pioneer in machine learning applications for cloud resource management and optimization.',
               },
@@ -160,7 +160,7 @@ export function HomePage() {
                 title: 'VP of Engineering',
                 affiliation: 'Google Cloud',
                 image:
-                  'https://ui-avatars.com/api/?name=Yuki+Tanaka&size=200&background=0056b3&color=fff',
+                  'https://ui-avatars.com/api/?name=Yuki+Tanaka&size=200&background=8FBC8F&color=fff',
                 topic: 'Security in Multi-Cloud Environments',
                 bio: 'Expert in cloud security and privacy, leading teams building next-generation security solutions.',
               },
