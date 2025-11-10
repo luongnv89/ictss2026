@@ -6,7 +6,7 @@ export function CookiePolicyPage() {
     <>
       <SEO
         title="Cookie Policy"
-        description="IEEE CloudCom 2026 Cookie Policy - Learn about how we use cookies and similar technologies on our website."
+        description="ICTSS 2026 Cookie Policy - Learn about how we use cookies and similar technologies on our website."
         noIndex
       />
 
@@ -43,9 +43,7 @@ export function CookiePolicyPage() {
               <Heading level={2} className="mb-4">
                 2. How We Use Cookies
               </Heading>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                IEEE CloudCom 2026 uses cookies to:
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-4">ICTSS 2026 uses cookies to:</p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>Enable essential website functionality</li>
                 <li>Remember your preferences and settings</li>
@@ -332,8 +330,8 @@ export function CookiePolicyPage() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700">
                   Email:{' '}
-                  <a href="mailto:privacy@cloudcom2026.org" className="text-ieee-blue">
-                    privacy@cloudcom2026.org
+                  <a href="mailto:privacy@ictss2026.org" className="text-ieee-blue">
+                    privacy@ictss2026.org
                   </a>
                   <br />
                   See our{' '}

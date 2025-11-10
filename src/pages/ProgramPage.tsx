@@ -52,7 +52,7 @@ export function ProgramPage() {
           location: 'Main Auditorium',
           speaker: 'Dr. Sarah Chen, MIT Computer Science',
           description:
-            'An exploration of emerging trends in serverless architectures and their impact on cloud computing paradigms',
+            'An exploration of emerging trends in serverless architectures and their impact on software testing paradigms',
         },
         {
           time: '10:30 - 11:00',
@@ -170,7 +170,7 @@ export function ProgramPage() {
           type: 'social',
           location: 'Main Auditorium',
           description:
-            'Industry leaders and researchers discuss future trends and challenges in cloud computing',
+            'Industry leaders and researchers discuss future trends and challenges in software testing',
         },
         {
           time: '19:00 - 22:00',
@@ -473,8 +473,8 @@ export function ProgramPage() {
     <>
       <SEO
         title="Conference Program"
-        description="Detailed schedule for IEEE CloudCom 2026 - October 21-23, 2026"
-        keywords={['program', 'schedule', 'sessions', 'talks', 'IEEE CloudCom']}
+        description="Detailed schedule for ICTSS 2026 - October 21-23, 2026"
+        keywords={['program', 'schedule', 'sessions', 'talks', 'IEEE ICTSS']}
       />
 
       {/* Hero Section */}

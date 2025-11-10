@@ -7,8 +7,8 @@ export function RegistrationPage() {
     <>
       <SEO
         title="Registration"
-        description="Register for IEEE CloudCom 2026. Early bird rates available until August 1, 2026."
-        keywords={['registration', 'fees', 'early bird', 'CloudCom 2026']}
+        description="Register for ICTSS 2026. Early bird rates available until August 1, 2026."
+        keywords={['registration', 'fees', 'early bird', 'ICTSS 2026']}
       />
 
       {/* Header */}
@@ -18,7 +18,7 @@ export function RegistrationPage() {
             Registration
           </Heading>
           <p className="text-xl text-center text-gray-700 max-w-3xl mx-auto">
-            Secure your place at IEEE CloudCom 2026
+            Secure your place at ICTSS 2026
           </p>
         </Container>
       </section>

@@ -8,14 +8,16 @@ export function HomePage() {
     <>
       <SEO
         title="Home"
-        description="IEEE International Conference on Cloud Computing Technology and Science - October 21-23, 2026 in Paris, France"
+        description="International Conference on Testing Software and Systems - October 21-23, 2026 in Paris, France"
         keywords={[
-          'cloud computing',
-          'IEEE',
+          'software testing',
+          'test automation',
+          'ICTSS',
           'conference',
-          'CloudCom 2026',
+          'ICTSS 2026',
           'Paris',
-          'distributed systems',
+          'quality assurance',
+          'verification',
         ]}
       />
 
@@ -23,9 +25,9 @@ export function HomePage() {
       <section className="hero-gradient text-white py-12 sm:py-16 md:py-20">
         <Container size="xl">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">IEEE CloudCom 2026</h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">ICTSS 2026</h1>
             <p className="text-xl sm:text-2xl md:text-3xl mb-6">
-              International Conference on Cloud Computing Technology and Science
+              International Conference on Testing Software and Systems
             </p>
             <p className="text-lg sm:text-xl md:text-2xl mb-8">
               October 21-23, 2026 | Paris, France
@@ -57,10 +59,10 @@ export function HomePage() {
           </Heading>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: 'Abstract Submission', date: 'April 15, 2026' },
-              { title: 'Paper Submission', date: 'May 1, 2026' },
-              { title: 'Notification', date: 'July 15, 2026' },
-              { title: 'Camera Ready', date: 'August 15, 2026' },
+              { title: 'Paper Submission', date: 'June 16, 2026' },
+              { title: 'Notification', date: 'July 14, 2026' },
+              { title: 'Camera Ready', date: 'July 25, 2026' },
+              { title: 'Author Registration', date: 'July 31, 2026' },
             ].map((item) => (
               <div
                 key={item.title}
@@ -83,28 +85,28 @@ export function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Cloud Infrastructure',
-                topics: ['Virtualization', 'Container Technologies', 'Edge Computing'],
+                title: 'Test Automation',
+                topics: ['Automated Test Generation', 'CI/CD Testing', 'Test Frameworks'],
               },
               {
-                title: 'Cloud Services',
-                topics: ['SaaS/PaaS/IaaS', 'Serverless Computing', 'Microservices'],
+                title: 'Model-Based Testing',
+                topics: ['Formal Methods', 'Model Checking', 'Test Oracles'],
               },
               {
-                title: 'Cloud Security',
-                topics: ['Privacy', 'Access Control', 'Compliance'],
+                title: 'AI/ML for Testing',
+                topics: ['Intelligent Test Generation', 'Test Selection', 'Fault Prediction'],
               },
               {
-                title: 'Big Data & Analytics',
-                topics: ['Data Processing', 'Machine Learning', 'IoT Integration'],
+                title: 'Security Testing',
+                topics: ['Penetration Testing', 'Vulnerability Analysis', 'Fuzzing'],
               },
               {
-                title: 'Cloud Applications',
-                topics: ['Mobile Cloud', 'Healthcare', 'Smart Cities'],
+                title: 'Performance & Reliability',
+                topics: ['Load Testing', 'Stress Testing', 'Reliability Assessment'],
               },
               {
-                title: 'Performance & QoS',
-                topics: ['Resource Management', 'SLA', 'Energy Efficiency'],
+                title: 'Mobile & Web Testing',
+                topics: ['Cross-Platform Testing', 'UI/UX Testing', 'Accessibility'],
               },
             ].map((track) => (
               <div
@@ -133,36 +135,36 @@ export function HomePage() {
             Keynote Speakers
           </Heading>
           <p className="text-center text-gray-600 mb-12">
-            World-renowned experts will share insights on the future of cloud computing
+            World-renowned experts will share insights on the future of software testing and quality assurance
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {[
               {
-                name: 'Dr. Sarah Chen',
-                title: 'Chief Cloud Architect',
-                affiliation: 'MIT Computer Science',
+                name: 'Dr. Emma Thompson',
+                title: 'Director of Software Quality',
+                affiliation: 'ETH Zurich',
                 image:
-                  'https://ui-avatars.com/api/?name=Sarah+Chen&size=200&background=0056b3&color=fff',
-                topic: 'The Future of Serverless Computing',
-                bio: 'Leading researcher in distributed systems and cloud architecture with over 15 years of experience.',
+                  'https://ui-avatars.com/api/?name=Emma+Thompson&size=200&background=8FBC8F&color=fff',
+                topic: 'AI-Driven Test Generation and Optimization',
+                bio: 'Leading researcher in automated testing and AI applications for software quality assurance.',
               },
               {
-                name: 'Prof. Michael Rodriguez',
-                title: 'Director of Cloud Research',
-                affiliation: 'Stanford University',
+                name: 'Prof. Andreas Mueller',
+                title: 'Chair of Software Engineering',
+                affiliation: 'TU Munich',
                 image:
-                  'https://ui-avatars.com/api/?name=Michael+Rodriguez&size=200&background=0056b3&color=fff',
-                topic: 'AI-Driven Cloud Optimization',
-                bio: 'Pioneer in machine learning applications for cloud resource management and optimization.',
+                  'https://ui-avatars.com/api/?name=Andreas+Mueller&size=200&background=8FBC8F&color=fff',
+                topic: 'Model-Based Testing for Critical Systems',
+                bio: 'Pioneer in formal methods and model-based testing for safety-critical applications.',
               },
               {
-                name: 'Dr. Yuki Tanaka',
-                title: 'VP of Engineering',
-                affiliation: 'Google Cloud',
+                name: 'Dr. Maria Santos',
+                title: 'Principal Test Architect',
+                affiliation: 'Microsoft Research',
                 image:
-                  'https://ui-avatars.com/api/?name=Yuki+Tanaka&size=200&background=0056b3&color=fff',
-                topic: 'Security in Multi-Cloud Environments',
-                bio: 'Expert in cloud security and privacy, leading teams building next-generation security solutions.',
+                  'https://ui-avatars.com/api/?name=Maria+Santos&size=200&background=8FBC8F&color=fff',
+                topic: 'Continuous Testing in DevOps Pipelines',
+                bio: 'Expert in test automation and continuous integration, leading large-scale testing initiatives.',
               },
             ].map((speaker) => (
               <div
@@ -202,8 +204,8 @@ export function HomePage() {
           </Heading>
           <div className="flex flex-wrap justify-center items-center gap-12">
             {[
-              { name: 'IEEE', url: 'https://www.ieee.org' },
-              { name: 'IEEE Computer Society', url: 'https://www.computer.org' },
+              { name: 'IFIP WG 1.7', url: 'https://ifip.org' },
+              { name: 'Springer', url: 'https://www.springer.com' },
               { name: 'Montimage', url: 'https://www.montimage.com' },
               { name: 'Sorbonne Université', url: 'https://www.sorbonne-universite.fr' },
             ].map((sponsor) => (
@@ -229,7 +231,7 @@ export function HomePage() {
               Join Us in Paris
             </Heading>
             <p className="text-xl mb-8">
-              Be part of the leading conference on cloud computing technology and science
+              Be part of the premier conference on software testing and quality assurance
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/call-for-papers" className={getButtonClassName('secondary', 'lg')}>

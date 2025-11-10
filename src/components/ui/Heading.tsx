@@ -13,7 +13,7 @@ interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {
  * @example
  * ```tsx
  * <Heading level={1} as="h1">
- *   CloudCom 2026
+ *   ICTSS 2026
  * </Heading>
  * ```
  */

@@ -6,7 +6,7 @@ export function TermsPage() {
     <>
       <SEO
         title="Terms of Service"
-        description="IEEE CloudCom 2026 Terms of Service - Rules and regulations for using our website and attending the conference."
+        description="ICTSS 2026 Terms of Service - Rules and regulations for using our website and attending the conference."
         noIndex
       />
 
@@ -32,10 +32,9 @@ export function TermsPage() {
                 1. Acceptance of Terms
               </Heading>
               <p className="text-gray-700 leading-relaxed">
-                By accessing and using the IEEE CloudCom 2026 website (cloudcom2026.org),
-                registering for the conference, or submitting papers, you accept and agree to be
-                bound by these Terms of Service. If you do not agree to these terms, please do not
-                use our services.
+                By accessing and using the ICTSS 2026 website (ictss2026.org), registering for the
+                conference, or submitting papers, you accept and agree to be bound by these Terms of
+                Service. If you do not agree to these terms, please do not use our services.
               </p>
             </div>
 
@@ -80,7 +79,7 @@ export function TermsPage() {
                 3.1 Registration Requirements
               </Heading>
               <p className="text-gray-700 leading-relaxed mb-4">
-                To register for IEEE CloudCom 2026, you must:
+                To register for ICTSS 2026, you must:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>Provide accurate and complete information</li>
@@ -112,8 +111,8 @@ export function TermsPage() {
                 Cancellations received before September 1, 2026 will receive a 50% refund.
                 Cancellations after this date are non-refundable. All refund requests must be
                 submitted in writing to{' '}
-                <a href="mailto:registration@cloudcom2026.org" className="text-ieee-blue">
-                  registration@cloudcom2026.org
+                <a href="mailto:registration@ictss2026.org" className="text-ieee-blue">
+                  registration@ictss2026.org
                 </a>
                 .
               </p>
@@ -169,8 +168,8 @@ export function TermsPage() {
               </Heading>
               <p className="text-gray-700 leading-relaxed mb-4">
                 All content on this website, including but not limited to text, graphics, logos,
-                images, and software, is the property of CloudCom 2026, IEEE, or their licensors and
-                is protected by copyright and intellectual property laws.
+                images, and software, is the property of ICTSS 2026, IEEE, or their licensors and is
+                protected by copyright and intellectual property laws.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 You may not reproduce, distribute, modify, or create derivative works from any
@@ -184,8 +183,8 @@ export function TermsPage() {
                 6. Code of Conduct
               </Heading>
               <p className="text-gray-700 leading-relaxed mb-4">
-                IEEE CloudCom 2026 is committed to providing a harassment-free conference experience
-                for everyone. All attendees, speakers, sponsors, and volunteers must:
+                ICTSS 2026 is committed to providing a harassment-free conference experience for
+                everyone. All attendees, speakers, sponsors, and volunteers must:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>Treat all participants with respect and courtesy</li>
@@ -205,8 +204,8 @@ export function TermsPage() {
                 7. Limitation of Liability
               </Heading>
               <p className="text-gray-700 leading-relaxed mb-4">
-                To the fullest extent permitted by law, IEEE CloudCom 2026 and its organizers,
-                sponsors, and affiliates shall not be liable for:
+                To the fullest extent permitted by law, ICTSS 2026 and its organizers, sponsors, and
+                affiliates shall not be liable for:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>Any indirect, incidental, special, or consequential damages</li>
@@ -237,10 +236,10 @@ export function TermsPage() {
                 9. Indemnification
               </Heading>
               <p className="text-gray-700 leading-relaxed">
-                You agree to indemnify and hold harmless IEEE CloudCom 2026, its organizers,
-                sponsors, and affiliates from any claims, damages, losses, liabilities, and expenses
-                (including legal fees) arising from your use of the website, attendance at the
-                conference, or violation of these Terms.
+                You agree to indemnify and hold harmless ICTSS 2026, its organizers, sponsors, and
+                affiliates from any claims, damages, losses, liabilities, and expenses (including
+                legal fees) arising from your use of the website, attendance at the conference, or
+                violation of these Terms.
               </p>
             </div>
 
@@ -303,11 +302,11 @@ export function TermsPage() {
                 For questions about these Terms of Service, please contact:
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-900 font-semibold">IEEE CloudCom 2026</p>
+                <p className="text-gray-900 font-semibold">ICTSS 2026</p>
                 <p className="text-gray-700">
                   Email:{' '}
-                  <a href="mailto:info@cloudcom2026.org" className="text-ieee-blue">
-                    info@cloudcom2026.org
+                  <a href="mailto:info@ictss2026.org" className="text-ieee-blue">
+                    info@ictss2026.org
                   </a>
                   <br />
                   Address: Sorbonne Université, 21 Rue de l'École de Médecine, 75006 Paris, France

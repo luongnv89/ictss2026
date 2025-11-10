@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'ieee-blue': '#0056B3',
-        'ieee-blue-dark': '#004085',
+        'ieee-blue': '#8FBC8F',
+        'ieee-blue-dark': '#7AA87A',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
