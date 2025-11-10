@@ -16,132 +16,132 @@ interface Committee {
 export function CommitteesPage() {
   const committees: Committee[] = [
     {
-      title: 'General Chairs',
+      title: 'Conference Chairs',
       members: [
-        { name: 'Prof. Jean Dupont', affiliation: 'Sorbonne Université', country: 'France' },
+        { name: 'Prof. Silvia Bonfanti', affiliation: 'University of Bergamo', country: 'Italy' },
         {
-          name: 'Prof. Maria Garcia',
-          affiliation: 'Universidad Politécnica de Madrid',
-          country: 'Spain',
+          name: 'Prof. George Angelos Papadopoulos',
+          affiliation: 'University of Cyprus',
+          country: 'Cyprus',
         },
       ],
     },
     {
       title: 'Program Committee Chairs',
       members: [
-        { name: 'Prof. John Smith', affiliation: 'Stanford University', country: 'USA' },
-        { name: 'Prof. Li Wei', affiliation: 'Tsinghua University', country: 'China' },
-        { name: 'Dr. Anna Kowalski', affiliation: 'ETH Zurich', country: 'Switzerland' },
+        { name: 'Prof. Ana Rosa Cavalli', affiliation: 'Télécom SudParis', country: 'France' },
+        { name: 'Prof. Robert Hierons', affiliation: 'University of Sheffield', country: 'UK' },
+        { name: 'Prof. Nikolai Kosmatov', affiliation: 'Thales Research & Technology', country: 'France' },
       ],
     },
     {
       title: 'Organizing Committee',
       members: [
         {
-          name: 'Dr. Sophie Martin',
-          affiliation: 'Montimage',
+          name: 'Dr. Pascale Le Gall',
+          affiliation: 'CentraleSupélec',
           role: 'Local Arrangements Chair',
           country: 'France',
         },
         {
-          name: 'Dr. Thomas Mueller',
-          affiliation: 'Technical University of Munich',
+          name: 'Dr. Christophe Gaston',
+          affiliation: 'CEA LIST',
           role: 'Workshop Chair',
-          country: 'Germany',
+          country: 'France',
         },
         {
-          name: 'Dr. Priya Sharma',
-          affiliation: 'IIT Bombay',
+          name: 'Prof. Mercedes G. Merayo',
+          affiliation: 'Universidad Complutense de Madrid',
           role: 'Publicity Chair',
-          country: 'India',
+          country: 'Spain',
         },
         {
-          name: 'Dr. Carlos Silva',
-          affiliation: 'Universidade de São Paulo',
-          role: 'Sponsorship Chair',
-          country: 'Brazil',
+          name: 'Dr. Alessandra De Benedictis',
+          affiliation: 'University of Naples Federico II',
+          role: 'Web Chair',
+          country: 'Italy',
         },
       ],
     },
     {
       title: 'Program Committee',
       members: [
-        { name: 'Prof. Ahmed Hassan', affiliation: 'Cairo University', country: 'Egypt' },
-        { name: 'Dr. Emma Wilson', affiliation: 'University of Cambridge', country: 'UK' },
-        { name: 'Prof. Hiroshi Yamamoto', affiliation: 'University of Tokyo', country: 'Japan' },
-        { name: 'Dr. Lars Andersson', affiliation: 'KTH Royal Institute', country: 'Sweden' },
+        { name: 'Prof. Valentina Casola', affiliation: 'University of Naples Federico II', country: 'Italy' },
+        { name: 'Prof. David Clark', affiliation: 'University College London', country: 'UK' },
+        { name: 'Prof. Hector Menendez', affiliation: 'King\'s College London', country: 'UK' },
+        { name: 'Prof. Massimiliano Rak', affiliation: 'University of Campania', country: 'Italy' },
         {
-          name: 'Prof. Olga Petrova',
-          affiliation: 'Moscow State University',
-          country: 'Russia',
+          name: 'Prof. Gerardo Schneider',
+          affiliation: 'University of Gothenburg',
+          country: 'Sweden',
         },
         {
-          name: 'Dr. James Brown',
-          affiliation: 'University of Melbourne',
-          country: 'Australia',
+          name: 'Prof. Adenilso Simao',
+          affiliation: 'University of São Paulo',
+          country: 'Brazil',
         },
-        { name: 'Prof. Yoon Park', affiliation: 'KAIST', country: 'South Korea' },
-        { name: 'Dr. Isabella Rossi', affiliation: 'Politecnico di Milano', country: 'Italy' },
-        { name: 'Prof. David Cohen', affiliation: 'Tel Aviv University', country: 'Israel' },
+        { name: 'Prof. Jan Tretmans', affiliation: 'Radboud University', country: 'Netherlands' },
+        { name: 'Prof. Hüsnü Yenigün', affiliation: 'Sabanci University', country: 'Turkey' },
+        { name: 'Prof. Franz Wotawa', affiliation: 'Graz University of Technology', country: 'Austria' },
         {
-          name: 'Dr. Fatima Al-Rashid',
-          affiliation: 'King Abdullah University',
-          country: 'Saudi Arabia',
-        },
-        {
-          name: 'Prof. Robert Johnson',
-          affiliation: 'University of Toronto',
-          country: 'Canada',
+          name: 'Dr. Alexander Pretschner',
+          affiliation: 'Technical University of Munich',
+          country: 'Germany',
         },
         {
-          name: 'Dr. Nina Patel',
-          affiliation: 'National University of Singapore',
-          country: 'Singapore',
-        },
-        { name: 'Prof. Hans Schmidt', affiliation: 'University of Vienna', country: 'Austria' },
-        {
-          name: 'Dr. Carolina Mendez',
-          affiliation: 'Universidad de Chile',
-          country: 'Chile',
-        },
-        { name: 'Prof. Kwame Osei', affiliation: 'University of Ghana', country: 'Ghana' },
-        {
-          name: 'Dr. Annika Jensen',
-          affiliation: 'University of Copenhagen',
-          country: 'Denmark',
+          name: 'Prof. Kenji Taguchi',
+          affiliation: 'National Institute of Informatics',
+          country: 'Japan',
         },
         {
-          name: 'Prof. Dimitri Papadopoulos',
-          affiliation: 'National Technical University of Athens',
+          name: 'Dr. Bestoun Ahmed',
+          affiliation: 'University of Liverpool',
+          country: 'UK',
+        },
+        { name: 'Prof. Thierry Jéron', affiliation: 'Inria Rennes', country: 'France' },
+        {
+          name: 'Dr. Machiel van der Bijl',
+          affiliation: 'Axini',
+          country: 'Netherlands',
+        },
+        { name: 'Prof. Bernhard Aichernig', affiliation: 'TU Graz', country: 'Austria' },
+        {
+          name: 'Prof. Djamel Eddine Saidouni',
+          affiliation: 'University of Constantine',
+          country: 'Algeria',
+        },
+        {
+          name: 'Prof. Kyriakos Kritikos',
+          affiliation: 'ICS-FORTH',
           country: 'Greece',
         },
         {
-          name: "Dr. Rachel O'Brien",
-          affiliation: 'Trinity College Dublin',
-          country: 'Ireland',
+          name: 'Dr. Yliès Falcone',
+          affiliation: 'University Grenoble Alpes',
+          country: 'France',
         },
         {
-          name: 'Prof. Nguyen Van Minh',
-          affiliation: 'Hanoi University of Science',
-          country: 'Vietnam',
+          name: 'Prof. Manuel Núñez',
+          affiliation: 'Universidad Complutense de Madrid',
+          country: 'Spain',
         },
         {
-          name: 'Dr. Patricia Santos',
-          affiliation: 'Universidade de Lisboa',
-          country: 'Portugal',
+          name: 'Dr. César Andrés',
+          affiliation: 'Universidad Complutense de Madrid',
+          country: 'Spain',
         },
       ],
     },
     {
       title: 'Steering Committee',
       members: [
-        { name: 'Prof. Richard Davis', affiliation: 'MIT', country: 'USA' },
-        { name: 'Prof. Francoise Blanc', affiliation: 'INRIA', country: 'France' },
-        { name: 'Prof. Klaus Weber', affiliation: 'University of Heidelberg', country: 'Germany' },
+        { name: 'Prof. Ana Rosa Cavalli', affiliation: 'Télécom SudParis', country: 'France' },
+        { name: 'Prof. Robert Hierons', affiliation: 'University of Sheffield', country: 'UK' },
+        { name: 'Prof. Nikolai Kosmatov', affiliation: 'Thales Research & Technology', country: 'France' },
         {
-          name: 'Prof. Raj Kumar',
-          affiliation: 'Indian Institute of Science',
-          country: 'India',
+          name: 'Prof. Mercedes G. Merayo',
+          affiliation: 'Universidad Complutense de Madrid',
+          country: 'Spain',
         },
       ],
     },
@@ -151,8 +151,8 @@ export function CommitteesPage() {
     <>
       <SEO
         title="Committees"
-        description="Meet the organizing and program committees of IEEE CloudCom 2026"
-        keywords={['committees', 'organizers', 'program committee', 'IEEE CloudCom']}
+        description="Meet the organizing and program committees of ICTSS 2026"
+        keywords={['committees', 'organizers', 'program committee', 'ICTSS']}
       />
 
       {/* Hero Section */}
@@ -162,7 +162,7 @@ export function CommitteesPage() {
             Conference Committees
           </Heading>
           <p className="text-center text-lg">
-            Meet the distinguished researchers and professionals organizing CloudCom 2026
+            Meet the distinguished researchers and professionals organizing ICTSS 2026
           </p>
         </Container>
       </section>
