@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <rect width="200" height="60" fill="#ffffff"/>
+  <text x="100" y="30" font-size="20" font-family="Georgia, serif" font-weight="bold" fill="#003B71" text-anchor="middle">Sorbonne</text>
+  <text x="100" y="48" font-size="18" font-family="Georgia, serif" fill="#003B71" text-anchor="middle">Université</text>
+</svg>
